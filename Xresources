@@ -1,0 +1,16 @@
+! Xft
+Xft.dpi: 96
+Xft.antialias: true
+Xft.rgba: rgb
+Xft.hinting: true
+Xft.hintstyle: hintslight
+
+
+! XTerm
+xterm*locale: true
+xterm*saveLines: 2048
+xterm*reverseWrap: true
+xterm*faceName:Dejavu Sans Mono:style=book
+xterm*faceNameDoublesize:AR PL UMing CN
+xterm*faceSize: 12
+

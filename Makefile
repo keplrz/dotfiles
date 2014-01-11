@@ -9,3 +9,5 @@ install-vim:
 install-x:
 	@rm -f ~/.xinitrc
 	@ln -s `pwd`/xinitrc ~/.xinitrc
+	@rm -f ~/.Xresources
+	@ln -s `pwd`/Xresources ~/.Xresources
