@@ -4,6 +4,10 @@ install-bash:
 	@rm -f ~/.bashrc
 	@ln -s `pwd`/bashrc ~/.bashrc
 
+install-emacs:
+	@rm -f ~/.emacs
+	@ln -s `pwd`/emacs-init.el ~/.emacs
+
 install-vim:
 	@rm -f ~/.vimrc
 	@ln -s `pwd`/vimrc ~/.vimrc
