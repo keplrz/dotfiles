@@ -1,6 +1,8 @@
 install-bash:
 	@rm -f ~/.bash_profile
 	@ln -s `pwd`/bash_profile ~/.bash_profile
+	@rm -f ~/.bashrc
+	@ln -s `pwd`/bashrc ~/.bashrc
 
 install-vim:
 	@rm -f ~/.vimrc
