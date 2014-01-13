@@ -1,3 +1,5 @@
+install: install-bash install-emacs install-vim install-x
+
 install-bash:
 	@rm -f ~/.bash_profile
 	@ln -s `pwd`/bash_profile ~/.bash_profile
