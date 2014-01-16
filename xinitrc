@@ -17,6 +17,7 @@ export XMODIFIERS="@im=fcitx"
 
 fcitx -d
 [[ -f $HOME/.Xresources ]] && xrdb -merge $HOME/.Xresources
+[[ -f $HOME/.fehbg ]] && sh $HOME/.fehbg
 xset -b
 syndaemon -t -k -i 2 -d &
 
